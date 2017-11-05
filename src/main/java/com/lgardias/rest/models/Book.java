@@ -8,7 +8,7 @@ public class Book {
     private String id;
     private String title;
     private String author;
-    private boolean isBorrowed;
+    private String borrowed;
 
     public String getId() {
         return id;
@@ -34,11 +34,11 @@ public class Book {
         this.author = author;
     }
 
-    public boolean isBorrowed() {
-        return isBorrowed;
+    public String getBorrowed() {
+        return borrowed;
     }
 
-    public void setBorrowed(boolean borrowed) {
-        isBorrowed = borrowed;
+    public void setBorrowed(String borrowed) {
+        this.borrowed = borrowed;
     }
 }
