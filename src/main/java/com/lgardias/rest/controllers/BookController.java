@@ -1,4 +1,4 @@
-package com.lgardias.rest.Controllers;
+package com.lgardias.rest.controllers;
 
 import com.lgardias.rest.models.Book;
 import com.lgardias.rest.services.BookServiceImpl;
