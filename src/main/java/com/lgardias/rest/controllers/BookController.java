@@ -20,12 +20,12 @@ public class BookController {
         this.bookSerwice = bookSerwice;
     }
 
-    @RequestMapping(value = "/library", method = RequestMethod.GET)
+    @RequestMapping(value = "/books", method = RequestMethod.GET)
     public List<Book> getBooks(){
         return bookSerwice.getBooks();
     }
 
-    @RequestMapping(value = "/library", method = RequestMethod.POST)
+    @RequestMapping(value = "/book", method = RequestMethod.POST)
     public Book createBook(@RequestBody Book book){
         return bookSerwice.createBook(book);
     }
